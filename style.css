@@ -2004,7 +2004,7 @@ body {
     }
 
     .option-name {
-        font-size: 0.9rem;
+        font-size: 0.5rem;
         line-height: 1.25;    /* 🔑 lebih center secara visual */
         white-space: normal;
         word-break: break-word;

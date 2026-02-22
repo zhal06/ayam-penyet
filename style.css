@@ -1997,7 +1997,7 @@ body {
 @media (max-width: 640px) {
 
     .product-option-btn {
-        padding: 14px 14px;          /* 🔑 tambah tinggi */
+        padding: 12px 14px;          /* 🔑 tambah tinggi */
         align-items: flex-start;     /* 🔑 teks multi-baris aman */
         justify-content: space-between;
         gap: 12px;

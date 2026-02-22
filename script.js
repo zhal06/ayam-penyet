@@ -191,7 +191,7 @@ const menuItems = [
         id: 9,
         name: 'Ayam Geprek',
         description: 'Ayam goreng dengan sambal bawang pedas nampol',
-        price: 8000,
+        price: 9000,
         category: 'Makanan',
         image: 'images/geprek.jpg',
         preparationTime: '15-20 menit',
@@ -211,7 +211,7 @@ const menuItems = [
         id: 10,
         name: 'Fried Chicken',
         description: 'Ayam goreng dengan sambal bawang pedas nampol',
-        price: 5000,
+        price: 6000,
         category: 'Makanan',
         image: 'images/ciken.jpg',
         preparationTime: '15-20 menit',
@@ -221,7 +221,7 @@ const menuItems = [
         discount: null,
         options: [
             { name: 'Fried Chicken', priceModifier: 0 },
-            { name: 'Fried Chicken + Nasi', priceModifier: 3000 },
+            { name: 'Fried Chicken + Nasi', priceModifier: 4000 },
             
         ]
     },

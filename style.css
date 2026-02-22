@@ -1771,7 +1771,7 @@ body {
 
 .option-name {
     font-weight: 700;
-    font-size: 1.125rem;
+    font-size: clamp(0.85rem, 3.8vw, 1.125rem);
     color: var(--text-primary);
     transition: color 0.3s ease;
 }

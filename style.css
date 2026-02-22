@@ -1771,7 +1771,7 @@ body {
 
 .option-name {
     font-weight: 700;
-    font-size: clamp(0.85rem, 3.8vw, 1.125rem);
+    font-size: 1.125rem;
     color: var(--text-primary);
     transition: color 0.3s ease;
 }
@@ -1989,4 +1989,29 @@ body {
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+/* ===========================
+   FIX VARIAN KEPOTONG (HP)
+   =========================== */
+@media (max-width: 640px) {
+
+    .product-option-btn {
+        padding: 14px 14px;
+        align-items: flex-start; /* biar teks bisa turun */
+        gap: 8px;
+    }
+
+    .option-name {
+        font-size: 0.9rem;       /* 🔑 KUNCI UTAMA */
+        line-height: 1.3;
+        white-space: normal;     /* BOLEH TURUN BARIS */
+        word-break: break-word;  /* AMAN UNTUK TEKS PANJANG */
+        max-width: 70%;
+    }
+
+    .option-price {
+        font-size: 0.95rem;
+        white-space: nowrap;
+    }
 }

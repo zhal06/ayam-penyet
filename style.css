@@ -1992,26 +1992,30 @@ body {
 }
 
 /* ===========================
-   FIX VARIAN KEPOTONG (HP)
+   FIX VARIAN RAPI (HP)
    =========================== */
 @media (max-width: 640px) {
 
     .product-option-btn {
-        padding: 14px 14px;
-        align-items: flex-start; /* biar teks bisa turun */
-        gap: 8px;
+        display: flex;
+        align-items: center;      /* 🔑 TENGAH VERTIKAL */
+        justify-content: space-between;
+        gap: 12px;
+        padding: 14px;
     }
 
     .option-name {
-        font-size: 0.9rem;       /* 🔑 KUNCI UTAMA */
+        font-size: 0.9rem;
         line-height: 1.3;
-        white-space: normal;     /* BOLEH TURUN BARIS */
-        word-break: break-word;  /* AMAN UNTUK TEKS PANJANG */
-        max-width: 70%;
+        white-space: normal;      /* boleh 2 baris */
+        word-break: break-word;
+        flex: 1;                  /* isi ruang kiri */
+        max-width: 72%;
     }
 
     .option-price {
         font-size: 0.95rem;
         white-space: nowrap;
+        flex-shrink: 0;
     }
 }

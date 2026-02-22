@@ -1997,25 +1997,27 @@ body {
 @media (max-width: 640px) {
 
     .product-option-btn {
-        padding: 12px 14px;   /* 🔑 lebih pendek & seimbang */
-        align-items: center;
+        padding: 14px 14px;          /* 🔑 tambah tinggi */
+        align-items: flex-start;     /* 🔑 teks multi-baris aman */
         justify-content: space-between;
-        gap: 10px;
+        gap: 12px;
+        min-height: 56px;            /* 🔑 box tidak gepeng */
     }
 
     .option-name {
-        font-size: 0.5rem;
-        line-height: 1;    /* 🔑 lebih center secara visual */
+        font-size: 0.9rem;           /* 🔑 jangan terlalu kecil */
+        line-height: 1.4;            /* 🔑 multi-line nyaman */
         white-space: normal;
         word-break: break-word;
         flex: 1;
-        max-width: 70%;
+        max-width: 75%;              /* 🔑 lebih lega */
     }
 
     .option-price {
         font-size: 0.95rem;
-        line-height: 1;       /* 🔑 sejajar tengah */
+        line-height: 1.2;
         white-space: nowrap;
         flex-shrink: 0;
+        align-self: center;          /* 🔑 harga tetap center */
     }
 }
